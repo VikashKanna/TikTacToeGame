@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Tictactoe {
+class Tictactoe {
     static char[] board = new char[10];
     private static String compchoice;
     public static void main(String args[]) {
@@ -26,4 +26,17 @@ public class Tictactoe {
             System.out.println("Wrong input");
             Inputchoice();
         }
-        
+
+
+
+    }
+
+
+    private static char[] Board() {
+        for (int i=1; i<board.length; i++) {
+
+            board[i]=' ';
+        }
+        return board;
+    }
+}
