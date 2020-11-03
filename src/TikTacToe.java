@@ -12,7 +12,7 @@ class Tictactoe {
 
     }
 
-
+//Showboard
     private static void ShowBoard() {
         System.out.println("_____________");
         System.out.println("|  "+board[1]+"|  "+board[2]+"|  "+board[3]+"|");
